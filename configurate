@@ -1,0 +1,47 @@
+https://learn2torials.com/a/laravel-eloquent-one-to-many-relationship
+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
+10032  /opt/lampp/bin/mysql -u root
+10033  php artisan make:migration MacroprocesosMigration
+10034  php artisan migrate
+10035  php artisan generate:erd
+10036  composer require beyondcode/laravel-er-diagram-generator --dev
+10037  composer update --ignore-platform-reqs
+10038  php artisan generate:erd
+10039  composer require beyondcode/laravel-er-diagram-generator --dev
+10040  composer require beyondcode/laravel-er-diagram-generator --dev --ignore-platform-reqs
+10041  composer update --ignore-platform-reqs
+10042  php artisan vendor:publish --provider=BeyondCode\\ErdGenerator\\ErdGeneratorServiceProvider
+10043  composer update --ignore-platform-reqs
+10044  php artisan generate:erd
+10045  omposer require kevincobain2000/laravel-erd --dev
+10046  composer require kevincobain2000/laravel-erd --dev
+10047  composer require kevincobain2000/laravel-erd --dev --ignore-platform-reqs
+10048  php artisan vendor:publish --provider="Kevincobain2000\LaravelERD\LaravelERDServiceProvider"
+10049  php artisan serve
+10050  php artisan erd:generate
+10051  php artisan migrate
+10052  composer update --ignore-platform-reqs
+10053  php artisan erd:generate
+10054  php artisan vendor:publish --provider="Kevincobain2000\LaravelERD\LaravelERDServiceProvider"
+10055  php artisan erd:generate
+10056  composer require kevincobain2000/laravel-erd --dev --ignore-platform-reqs
+10057  php artisan vendor:publish --provider="Kevincobain2000\LaravelERD\LaravelERDServiceProvider"
+10058  php artisan erd:generate
+10059  php artisan make:model Macroproceso
+10060  php artisan erd:generate
+10061  php artisan make:migration MacroprocesosMigration
+10062  php artisan make:migration CreatemacrProcesosTable
+10063  php artisan make:migration CreatemacroprocesosTable
+10064  php artisan make:migration CreateMacroprocesosTable
+10065  php artisan erd:generate
+10066  php artisan migrate
+10067  php artisan erd:generate
+10068  php artisan migrate
+10069  php artisan down migrate
+10070  php artisan schema:down
+10071  php artisan migrate:fresh
+10072  php artisan erd:generate
+10073  php artisan make:migration CreateProcesosTable
+10074  ls
+10075  vim configurate
+
